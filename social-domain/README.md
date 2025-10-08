@@ -27,6 +27,11 @@ Then to get the anonymised individual screenshots of the posts:
 python get_screenshots.py sampled-data-demo/en --lang en --anonymise
 ```
 
+This code extracts individual screenshots of each post in the thread,
+expanding hidden text and images and (in some cases - see below)
+hiding alt text for attached images. The usernames and account names
+of the main posts are also anonymised.
+
 Known issues and potential issues:
 
 - The code expands hidden text and images, but is designed to hide alt
