@@ -43,6 +43,6 @@ Known issues and potential issues:
 - The account name can be formatted, and this formatting can be
   included in the name of the account when looking at the underlying
   data (e.g. bold font = username :bc:). This is currently handled by
-  the code (by adding the bold face variant to the anonymisation map),
+  the current code (by adding the bold face variant to the anonymisation map),
   but any other formatting types would need to be included should they
   appear. If not, the name will not be anonymised.
